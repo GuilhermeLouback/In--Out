@@ -29,7 +29,7 @@ class Model {
 
     public static function get($filters = [], $columns = '*'){
         $objects = [];
-        $result = static::getResultSetFromSelect($filters = [], $columns);
+        $result = static::getResultSetFromSelect($filters, $columns);
         if($result){
             $class = get_called_class();
             while($row = $result -> fetch_assoc()){
