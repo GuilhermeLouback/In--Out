@@ -9,7 +9,7 @@ class Database {
         $conn = new mysqli($env['host'],$env['username'],$env['password'],$env['database']);
 
         if($conn -> connect_error) {
-            die("Erro: .$conn->connect_error");
+            die("Erro:" .$conn->connect_error);
         }
 
         return $conn;
