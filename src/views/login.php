@@ -1,8 +1,6 @@
 
 <!-- Responsavel por renderizar a pagina -->
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

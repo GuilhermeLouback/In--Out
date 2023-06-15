@@ -1,8 +1,6 @@
 <?php
-
-require_once(realpath(MODEL_PATH . '/model.php'));
-
-class User extends Model {
+class User extends Model
+{
     protected static $tableName = 'users';
     protected static $columns = [
         'id',
@@ -11,8 +9,6 @@ class User extends Model {
         'email',
         'start_date',
         'end_date',
-        'is_admin',
+        'is_admin'
     ];
-
-
-} 
+}
