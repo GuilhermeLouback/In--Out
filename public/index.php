@@ -1,19 +1,4 @@
 <?php
 
 require_once(dirname(__FILE__, 2) . '/src/config/config.php');
-//require_once(realpath(VIEW_PATH . '/login.php'));
-
-require_once(realpath(MODEL_PATH . '/Login.php'));
-
-
-$login = new Login([
-    'email' => 'admin@cod3r.com.br',
-    'password' => 'a'
-]);
-
-try {
-    $login->checkLogin();
-    echo 'Deu Certo';
-} catch (Exception $e) {
-    echo 'Problema de logim :(';
-}
+require_once(realpath(CONTROLER_PATH . '/login.php'));
