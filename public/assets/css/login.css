@@ -6,6 +6,14 @@ body {
     background-color: #DDD;
 }
 
+/* Estilos para a imagem de fundo */
+.login-background {
+    background-image: url('whitelabel.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o corpo */
+    background-position: center; /* Centraliza a imagem no corpo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
 .form-login {
     flex-basis: 450px;
 }

@@ -11,7 +11,8 @@ O Livro de Ponto é uma aplicação web que permite aos funcionários registrar 
 - Visualização de relatórios e exportação de dados.
 
 ## Capturas de Tela
-![Tela de Registro](screenshots/registro.png)
+![Tela de Login](screenshots/login.png)
+![Tela de Registros](screenshots/registro.png)
 
 ## Como Usar
 1. Faça o download ou clone o repositório do projeto.

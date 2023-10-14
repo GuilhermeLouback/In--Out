@@ -14,7 +14,7 @@
     <title>In N' Out</title>
 </head>
 
-<body>
+<body class="login-background">
     <form class="form-login" action="#" method="post">
         <div class="login-card card">
             <div class="card-header">
