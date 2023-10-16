@@ -225,3 +225,35 @@ footer.footer {
 .record{
     font-size: 2rem;
 }
+
+
+.summary-boxes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.summary-box{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+    margin: 0px 5px;
+    border-radius: 10px;
+    align-items: center;
+    min-width: 200px;
+}
+
+.summary-box .title{
+    font-size: 1.5rem;
+}
+
+.summary-box .value{
+    font-size: 2.0rem;
+}
+
+
+.summary-box .icon{
+    font-size: 3.5rem;
+}

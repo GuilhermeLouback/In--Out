@@ -88,7 +88,7 @@ function getTimeStringFromSeconds($seconds)
     return sprintf('%02d:%02d:%02d', $h, $m, $s);
 }
 
-function formatDateWhereLocale($date, $pattern)
+function formatDateWithLocale($date, $pattern)
 {
     $time = getDateAsDatetime($date)->getTimestamp();
     return strftime($pattern, $time);
